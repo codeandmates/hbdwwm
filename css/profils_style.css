@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Loop:ital@0;1&display=swap");
+
+/* Classes Génériques */
+
+body {
+  margin: auto;
+  color: white;
+  background: url("../img/bg/bgsimple.jpg") center center/cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 20.8px;
+}
+
+#titre{
+  font-size: 32px;
+}
+h1#grand{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+
+#king {
+  background: url("../img/bg/bgking.jpg") center center/cover;
+  background-attachment: fixed;
+}
+
+#queen {
+  background: url("../img/bg/bgqueen.jpg") center center/cover;
+  background-attachment: fixed;
+}
+
+#tour {
+  background: url("../img/bg/bgtour.jpg") center center/cover;
+  background-attachment: fixed;
+}
+
+#cavalier {
+  background: url("../img/bg/bgcavalier.jpg") center center/cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  background: rgba(17, 17, 17, 0.506);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header .container {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+header.container div#left {
+  width: 70%;
+}
+
+header .container div#center {
+  width: 87%;
+}
+#logo {
+  transition: all ease 0.3s;
+}
+
+#logo:hover {
+  filter: drop-shadow(0px 0px 5px #fff);
+  transform: scale(1.05);
+}
+
+.montserrat {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Nom + Photo + Description */
+
+.part1 {
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.bulle {
+  float: left;
+  shape-outside: circle(50%);
+  margin: 0% 5% 5% 5%;
+  max-width: 60vh;
+  max-height: 60vh;
+}
+
+.description {
+  margin: 5% 9% 2% 5%;
+}
+
+/* Linkedin + Citation + Savoir-être */
+
+.part2 {
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-linkedin-in {
+  margin-right: 10px;
+}
+
+.citation {
+  text-align: center;
+}
+
+.qualites {
+  text-align: center;
+}
+
+/* Autres Profils */
+
+#sec-profils {
+  /* background:  url("../img/background/background.jpg") no-repeat ;
+  background-size: cover;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF; */
+  margin: 10vh 15vh 15vh 15vh;
+  background-attachment: fixed;
+  background-color: rgba(17, 17, 17, 0.5);
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(17, 17, 17, 0.2);
+}
+
+.titre-profils {
+  padding: 1.5vh;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  background: rgba(17, 17, 17, 0.2);
+}
+
+.div-generale {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colonne {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+}
+
+.colonne img {
+  height: 50px;
+  width: 50px;
+  margin: 0% 8% 0% 0%;
+}
+
+.colonne a:hover {
+  opacity: 0.5;
+  transition: 0.3s all ease;
+}
+
+#sec-profils .container {
+  display: flex;
+  align-items: center;
+  margin: 2.5vh;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  min-height: 15vh;
+  background-color: #111111;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+}
+footer a {
+  text-transform: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  opacity: 0.5;
+  transition: all ease 0.3s;
+}
