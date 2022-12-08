@@ -183,7 +183,7 @@ header .container div#center {
     position: absolute;
     width: 100%;
     height: 100%;
-    display: none;
+/*     display: none; */
 }
 
 #bg1{background: url(../img/bg1b.jpeg) center center no-repeat;
