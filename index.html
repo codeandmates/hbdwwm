@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/page1.js"></script>
+
+    <title>Project Code & Mates</title>
+  </head>
+
+  <body>
+    <!-- Header + social -->
+
+    <header>
+      <div class="container">
+        <div id="left">
+          <a href="index.html"><img id="logo" src="img/logo.svg" alt="" /></a>
+        </div>
+        <div id="center">
+          <h1 id="titre" class="montserrat">Code & Mates</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- social  -->
+    <div class="media">
+      <img class="ligne" src="img/Line-media.svg" alt="" />
+      <a href="https://linktr.ee/code_and_mates" target="_blank"
+        ><img src="img/linkedin.svg" alt=""
+      /></a>
+      <a href="https://www.instagram.com/humandevbooster/" target="_blank"
+        ><img src="img/insta.svg" alt=""
+      /></a>
+      <a
+        href="https://humanbooster.com/programmes/developpeur-web-et-web-mobile/"
+        target="_blank"
+        ><img src="img/hb.svg" alt=""
+      /></a>
+      <img class="ligne" src="img/Line-media.svg" alt="" />
+    </div>
+    <!-- main content -->
+
+    <!--Section 1 "banner"-->
+    <section class="sectionSlider">
+      <div class="overlay"></div>
+
+      <div class="slide fade" id="bg1"></div>
+      <div class="slide fade" id="bg2"></div>
+      <div class="slide fade" id="bg3"></div>
+      <div class="slide fade" id="bg4"></div>
+      <div class="slide fade" id="bg5"></div>
+      <div class="slide fade" id="bg6"></div>
+
+      <p class="textSlider">
+        22 novembre 2022, 16 apprenants intègrent la formation Développeur Web &
+        Web Mobile.<br />
+        Ils sont 16, comme les 16 pièces d'une armée échiquéenne.<br />
+        "Ensemble, jusqu'au bout" est leur devise.<br />
+        Cliquez sur les pièces de l'échiquier pour en savoir davantage sur
+        chaque membre de l'équipe.
+      </p>
+      <div class="dotContainer">
+        <span class="dotSlider" onclick="dotTriggerSlide(1)"></span>
+        <span class="dotSlider" onclick="dotTriggerSlide(2)"></span>
+        <span class="dotSlider" onclick="dotTriggerSlide(3)"></span>
+        <span class="dotSlider" onclick="dotTriggerSlide(4)"></span>
+        <span class="dotSlider" onclick="dotTriggerSlide(5)"></span>
+        <span class="dotSlider" onclick="dotTriggerSlide(6)"></span>
+      </div>
+    </section>
+
+    <!--Section échéquier-->
+
+    <section class="sectionBoard">
+      <div class="containerBoard siteContainer">
+        <div class="board">
+          <a href="profil_sami.html" id="art1" class="pixelArt">
+            <img src="img/Pixel-art/Sam.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Sami ABDELKAFI</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Sami_ABDELKAFI.png" alt="" />
+                <p>"La pièce maîtresse"</p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_adel.html" id="art2" class="pixelArt">
+            <img src="img/Pixel-art/Adel.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Adel BENYAHIA</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Adel_BENYAHIA.png" alt="" />
+                <p>
+                  "Je ne cherche pas à connaître les réponses, je cherche à
+                  comprendre les question."<br />
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_hicham.html" id="art3" class="pixelArt">
+            <img src="img/Pixel-art/HichamBen.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Hicham BENZAIED</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Hicham.png" alt="" />
+                <p>
+                  "Heureux l’homme qui supporte la tentation ; car, quand il
+                  sera devenu un homme éprouvé, il recevra la couronne de la
+                  vie, que le Seigneur a promise à ceux qui l’aiment."
+                  <br />Jacques 1:12
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="profil_david.html" id="art4" class="pixelArt">
+            <img src="img/Pixel-art/David.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>David CHOSSON</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/David_CHOSSON.png" alt="" />
+                <p>"Grand voyageur et passionné de code."</p>
+              </div>
+              mamprofil_mathias.html
+            </div>
+          </a>
+
+          <a href="profil_mathias.html" id="art5" class="pixelArt">
+            <img src="img/Pixel-art/Mathias.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Mathias DAHA</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Mathias_DAHA.png" alt="" />
+                <p>
+                  "N'arrêtez jamais d'apprendre" <br />-<br />
+                  Léo TechMaker
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="profil_jerome.html" id="art6" class="pixelArt">
+            <img src="img/Pixel-art/jerome-pion.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Jérome FOREST</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Jerome_FOREST.png" alt="" />
+                <p>"Pièce touchée, pièce jouée."</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="profil_malak.html" id="art7" class="pixelArt">
+            <img src="img/Pixel-art/malak.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Malak BOUAKER</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Malak.png" alt="" />
+                <p>
+                  " le courage n'est pas l'absence de peur mais la capacité de
+                  la vaincre "
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="profil_thihue.html" id="art8" class="pixelArt">
+            <img src="img/Pixel-art/Thi-Hue.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Thi Hue KHUC</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Thi-Hue_KHUC.png" alt="" />
+                <p>
+                  “S’il y a un problème, il y a une solution. S’il n’y a pas de
+                  solution, alors ce n’est pas un problème.”
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_winai.html" id="art9" class="pixelArt">
+            <img src="img/Pixel-art/Winai.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Winai KIRATIHONGSAKUN</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Winai.png" alt="" />
+                <p>
+                  "Doté d’un caractère cordial bien que rigoureux, mon but est
+                  toujours de remplir les objectifs fixés!!"
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_peter.html" id="art10" class="pixelArt">
+            <img src="img/Pixel-art/Peter.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Peter KOMU</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Peter_KOMU.png" alt="" />
+                <p>
+                  "Une seule vie pour la vivre, choisit un travail que vous
+                  aimez et vous n'aurez jamais à travailler un seul jour de
+                  votre vie."<br />
+                  -<br />
+                  Confucius.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_antoine.html" id="art11" class="pixelArt">
+            <img src="img/Pixel-art/AL.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Antoine LAFOREST</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Antoine_LAFOREST.png" alt="" />
+                <p>
+                  "je ne crois pas qu'il y est de bonne ou de mauvaise
+                  citations...." <br />
+                  -<br />
+                  Alain Chabat
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_hichem.html" id="art12" class="pixelArt">
+            <img src="img/Pixel-art/HichemNaruto.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Hichem MENECEUR</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Hichem_MENECEUR.png" alt="" />
+                <p>
+                  “Il vaut mieux voir le verre à moitié plein qu'à moitié vide”
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_emilly.html" id="art13" class="pixelArt">
+            <img src="img/Pixel-art/Emellie.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Emilly MESQUITA</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Emilly_MESQUITA.png" alt="" />
+                <p>
+                  "La vie est un mystère qu'il faut vivre, et non un problème à
+                  résoudre. <br />-<br />
+                  Gandhi"
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_joanna.html" id="art14" class="pixelArt">
+            <img src="img/Pixel-art/Joanna.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Joanna PATHENAY</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Joanna_PATHENAY.png" alt="" />
+                <p>
+                  "Un peu de folie est nécessaire pour faire un pas de plus.<br />-<br />
+                  Paulo Coelho"
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_ernaud.html" id="art15" class="pixelArt">
+            <img src="img/Pixel-art/RNO.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Ernaud PIELS</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Ernaud_PIELS.png" alt="" />
+                <p>
+                  "On voyage autour du monde à la recherche de quelque chose et
+                  on rentre chez soi pour le trouver"
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="profil_arthur.html" id="art16" class="pixelArt">
+            <img src="img/Pixel-art/Arthur.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>Arthur POULAIN</h3>
+              <div class="profilContainer">
+                <img src="img/imgPopup/Arthur_POULAIN.png" alt="" />
+                <p>"Fort en pomme"</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="mario.js/mario.html"
+            target="_blank"
+            id="art17"
+            class="pixelArt"
+          >
+            <img src="img/Pixel-art/marioegg.png" alt="" onclick="" />
+            <div class="popup">
+              <h3>?</h3>
+            </div>
+          </a>
+
+          <a href="a_propos.html" class="ctaFormation">
+            À propos <img src="img/chevron.png" id="arrow" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer -->
+    <footer>
+      <a
+        target="_blank"
+        href="politique_de_confidentialité&mentions.html"
+        id="politique"
+        >Politique de confidentialité</a
+      >
+      <p id="copyright">Copyright</p>
+      <a
+        target="_blank"
+        href="politique_de_confidentialité&mentions.html"
+        id="mentions"
+        >Mentions légales</a
+      >
+    </footer>
+  </body>
+</html>
