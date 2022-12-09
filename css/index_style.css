@@ -196,8 +196,8 @@ background-size: cover;}
 background-size: cover;}
 #bg5{background: url(../img/bg5.jpg)center no-repeat;
 background-size: cover;}
-#bg6{background: url(../img/bg6.jpg)center no-repeat;
-background-size: cover;}
+/* #bg6{background: url(../img/bg6.jpg)center no-repeat;
+background-size: cover;} */
 
 .textSlider {
     position: absolute;
