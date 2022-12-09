@@ -123,6 +123,7 @@ header .container div#center {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
 .fa-linkedin-in {
@@ -165,6 +166,7 @@ header .container div#center {
 .div-generale {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .colonne {
