@@ -434,3 +434,20 @@ footer a:hover {
     transition: all ease 0.3s;
 }
 
+@media screen and (max-width: 700px){
+
+    .textSlider{
+        z-index: 2;
+        max-width: 250px;
+        font-size: 12px
+    }
+    .ctaFormation{
+        font-size: 14px;
+    }
+    .board{
+        z-index: 3;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
