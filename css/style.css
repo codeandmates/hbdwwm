@@ -328,4 +328,8 @@ footer a:hover {
         top: 1543px;
     }
     .frise{display: none;}
+     
+    footer{
+        font-size: 12px;
+    }
 }
