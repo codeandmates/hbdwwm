@@ -166,7 +166,7 @@ header .container div#center {
 .div-generale {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  
 }
 
 .colonne {
@@ -216,4 +216,10 @@ footer a {
 footer a:hover {
   opacity: 0.5;
   transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 770px){
+ .div-generale{
+   flex-wrap: wrap;
+  }
 }
