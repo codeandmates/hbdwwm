@@ -15,10 +15,11 @@ body {
     line-height: 1.8;
     color: #FFFFFF;
 }
-h2#grand{
+h2#grand {
     text-align: center;
     font-size: 2.5rem;
 }
+
 .montserrat {
     font-family: 'Montserrat';
     font-weight: 400;
